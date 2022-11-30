@@ -26,7 +26,6 @@ from kairon.chat.converters.channels.responseconverter import ElementTransformer
 from kairon.chat.converters.channels.response_factory import ConverterFactory
 import json
 
-
 class TestUtility:
 
     @pytest.fixture(autouse=True, scope="class")
